@@ -22,7 +22,7 @@ const detectFaces = async () => {
 
   // Using canvas to draw the video first
 
-  ctx.drawImage(video, 0, 0, 500, 400);
+  ctx.drawImage(video, 0, 0, 320, 400);
 
   prediction.forEach((predictions) => {
     
