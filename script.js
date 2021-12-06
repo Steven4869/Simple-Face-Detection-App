@@ -9,7 +9,7 @@ let ctx = canvas.getContext("2d");
 const accessCamera = () => {
   navigator.mediaDevices
     .getUserMedia({
-      video: { width: 500, height: 400 },
+      video: { width: 320, height: 400 },
       audio: false,
     })
     .then((stream) => {
